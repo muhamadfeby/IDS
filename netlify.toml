@@ -1,0 +1,6 @@
+[build]
+  functions = "api"
+  command = "pip install -r requirements.txt"
+
+[[plugins]]
+  package = "@netlify/plugin-python"
